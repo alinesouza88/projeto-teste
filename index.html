@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Responsivo</title>
+
+    <style> 
+         body{
+            font-family: arial;
+            margin: 20px;
+         } 
+
+          .container{
+            display: flex;
+            gap: 10px;
+          }
+          
+           .box{
+            flex: 1;
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+         
+          }
+
+         @media (max-width: 800px) {
+         .container {
+          flex-wrap: wrap;
+          }
+          .box {
+            flex: 1 1 45%;
+        }
+          }
+
+          
+         @media (max-width: 500px) {
+         .container {
+          flex-wrap: wrap;
+          }
+          .box {
+            flex: 1 1 100%;
+        }
+          }
+
+
+    </style>
+</head>
+
+<body>
+
+  <h2> Meu Site Responsivo</h2>
+<div class="container">
+    <div class="box">caixa 1</div>
+    <div class="box">caixa 2</div>
+    <div class="box">caixa 3</div>
+</div>
+<script>
+    let =1;
+    if (variavel == 1)
+    alert("Bem-vindo ao meu site responsivo!");
+
+</script>
+
+</body>
+
+</html> 
